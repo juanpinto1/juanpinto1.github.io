@@ -33,12 +33,12 @@ body {
   }
 
   .navbar-brand{
-    width: 100px;
+    width: 80px;
   }
 
 }
 .display-1 {
-  color: black;
+  color:cyan
 
 }
 .image-top{
