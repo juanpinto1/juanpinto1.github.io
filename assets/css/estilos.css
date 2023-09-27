@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -8,7 +10,16 @@ body {
   background-image: url("../img/Pantalla.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
+}
+
+#Hero-Section a{
+  text-decoration: none;
+  color: White;
+}
+
+#Hero-Section i{
+  color:rgb(122, 120, 120);
 }
 
 /* Mis trabajos */
@@ -20,10 +31,38 @@ body {
   background-position: center;
 }
 
+#Mis-trabajos a{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+
+#Mis-trabajos a:hover{
+  text-decoration: none;
+  color:rgb(19, 19, 19);
+}
+.display-1{
+  color: aqua;
+}
+
+/*Acerca de mi - Iconos*/
+#Acerca-de-mi{
+  background-color: rgba(255, 255, 255, 0.822);
+  background-image: url(../img/trabajo.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode:lighten;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Acerca-de-mi i{
+  font-size: 55px;
+}
+
 /* Contacto */
 
 #Contacto form label {
-  font-weight: 700;
+  font-weight: 600;
   color: #373a3c;
 }
 
@@ -33,15 +72,7 @@ body {
   }
 
   .navbar-brand{
-    width: 80px;
+    width: 90px;
   }
 
 }
-.display-1 {
-  color:cyan;
-
-}
-.image-top{
-  padding: 1px;
-}
-
