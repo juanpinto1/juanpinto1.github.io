@@ -15,7 +15,7 @@ body {
 
 #Hero-Section a{
   text-decoration: none;
-  color: White;
+  color: rgb(128, 110, 110);
 }
 
 #Hero-Section i{
@@ -75,4 +75,54 @@ body {
     width: 90px;
   }
 
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6, .logo {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url('../assets/img/bg-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #747576;
+}
+
+.pfp {
+  background-image: url(../assets/img/pfp.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: #17191a;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3)
+}
+
+.hero p {
+  margin-bottom: 0.7rem;
+  line-height: 1.5rem;
+}
+
+/* Navbar */
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  transition: all 250ms ease;
+}
+
+.logo:hover {
+  color: #00ccff;
 }

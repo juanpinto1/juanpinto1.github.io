@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/icon/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <title>[Portafolio.Juan]</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">Juan Pinto</a>
+                <button
+                class="navbar-toggler link-light"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation">
+                    <i class='bx bx-menu'></i>
+                </button>
+                <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+                data-bs-theme="dark">
+                    <div class="offcanvas-header bg-dark text-light">
+                        <h5 class="offcanvas-title fw-bold text-white" id="offcanvasNavbarLabel">
+                            Juan Pinto
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body bg-dark text-center">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Contacto
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-5 bg-white">
+        <h2 class="display-4 fw-bold text-center text-primary mb-5">Portafolio</h2>
+        <div class="container g-3">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 py-2">
+                    <div class="card h-100">
+                        <div class="image-top m-2" style="background-image: url(./assets/img/paginagit.png)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fs-3">Fork`s</h5>
+                            <p class="card-text">
+                                Realizar fork y modificaciones sobre Git luego comprobar los commits procesados
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="d-flex gap-3 text-secondary">
+                                <i class="fa-brands fa-html5 fa-2x"></i>
+                                <i class="fa-brands fa-css3-alt fa-2x"></i>
+                            </div>
+                            <a class="btn btn-outline-secondary" href="https://juanpinto1.github.io/fdsw-github/" target="_blank">
+                                Visitar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 py-2">
+                    <div class="card h-100">
+                        <div class="image-top m-2" style="background-image: url(./assets/img/paginaiguana.png)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fs-3">Iguana</h5>
+                            <p class="card-text">
+                                Reconstruir un sitio basado en una maqueta de Adobe XD, utilizando flexbox y sus propiedades.
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="d-flex gap-3 text-secondary">
+                                <i class="fa-brands fa-html5 fa-2x"></i>
+                                <i class="fa-brands fa-css3-alt fa-2x"></i>
+                            </div>
+                            <a class="btn btn-outline-secondary" href="https://juanpinto1.github.io/Iguana/" target="_blank">
+                                Visitar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 py-2">
+                    <div class="card h-100">
+                        <div class="image-top m-2" style="background-image: url(./assets/img/paginacuppon.png)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fs-3">Cuppon</h5>
+                            <p class="card-text">
+                                Construir un sitio de cupones de descuento, utilizando componentes y propiedades responsivas del framework Bootstrap.
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="d-flex gap-3 text-secondary">
+                                <i class="fa-brands fa-html5 fa-2x"></i>
+                                <i class="fa-brands fa-css3-alt fa-2x"></i>
+                                <i class="fa-brands fa-bootstrap fa-2x"></i>
+                            </div>
+                            <a class="btn btn-outline-secondary" href="https://juanpinto1.github.io/trabajobootstrap//" target="_blank">
+                                Visitar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-center p-4 d-flex flex-column align-items-center">
+        <div class="link-light d-flex gap-4 fs-4">
+            <a class="link-secondary" href="https://github.com/juanpinto1">
+                <i class="bi bi-github"></i>
+            </a>
+            <a class="link-secondary" href="https://www.linkedin.com/in/juan pinto/">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="link-secondary" href="https://www.instagram.com/gatohall/">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+        <p class="mb-0 text-secondary">Juan Pinto © - 2023</p>
+    </footer>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/c3a020cc3e.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
